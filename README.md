@@ -51,6 +51,21 @@ Features:
 	vector matching support:
 
 	debug dumping support:
+	
+	Automated documentation:
+		-i/o block diagrams
+		-description of blocks
+
+	Automated test documentation:
+		
+	Automated register maps:
+
+	IO decomposition of HW/SW:
+		
+	External library support:
+		boost
+		fft
+	
 
 Thoughts:
 	how about using this whole concept to test itself.	
