@@ -16,10 +16,14 @@ First cut of any feature could be done in python.
 
 Modules:
 
-pySync: Adaptor to sync repo.
-pyBuild: Builds if needed
-pyScenGen: generates scenarios
-pyMail: email client
+	pySync: 
+		-Adaptor to sync repo.
+	pyBuild: 
+		-Builds if needed
+	pyScenGen: 
+		-generates scenarios
+	pyMail: 
+		-email client
 
 
 
