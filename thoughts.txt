@@ -6,6 +6,15 @@ how are we going to do this?
 ->register map should be identical to RTL
 
 How to transiton from floating point algorithm to fix point cycle true
+	-underlying doubles (machine supported)
+	-use functions to explicitly apply round/trunc.
+
+Tb should be seperate from code.
+
+Algorithm models should be separate from hw implementation.
+But don't want to look after multiple models
+System options should be separate from hw register options
+		-should use the same mechanism in high level design
 
 
 	directory structure:
@@ -24,3 +33,7 @@ How to transiton from floating point algorithm to fix point cycle true
 			-fw(firmware)
 			-tb(testbenches)
 			-blt(block level testbenches)
+
+
+So start with cmd name lets say proj.
+proj new <name>
