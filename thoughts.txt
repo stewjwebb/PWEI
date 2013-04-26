@@ -1,0 +1,26 @@
+
+how are we going to do this?
+
+->architecture (block level) should be identical to RTL
+->I/O (block level) should be identical to RTL
+->register map should be identical to RTL
+
+How to transiton from floating point algorithm to fix point cycle true
+
+
+	directory structure:
+		-design
+	    	-model
+				-env
+					-analog models
+					-channel models
+				-hw
+					-tx
+					-rx
+			-tb     
+		-FinalSolution
+			-hw(hardware)
+			-sw(software)
+			-fw(firmware)
+			-tb(testbenches)
+			-blt(block level testbenches)
