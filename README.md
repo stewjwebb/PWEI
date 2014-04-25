@@ -1,5 +1,9 @@
 This is the readme
 
+This is a list
+- [ ] item 1
+- [x] item 2
+
 
 System Simulation Life Support 
 SSLS. Better names are encouraged.
